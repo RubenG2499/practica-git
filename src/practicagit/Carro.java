@@ -20,7 +20,11 @@ public class Carro {
     public String verDetalle() {
         int velocidad;
 
-    public void acelerar() {
+    public void acelerar(){
+            public void frenar() {
+        velocidad = 0;
+    }
+    }
         velocidad += 10;
         StringBuilder sb = new StringBuilder();
         sb.append("Marca: ").append(marca).append("\n");
